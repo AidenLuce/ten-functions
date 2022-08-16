@@ -39,15 +39,12 @@ function isFalse(input){
 }
 //Define a function named not that takes in any input and returns the boolean opposite of the provided input.
 function not(input) {
-  if  (input != true){
-      return true
-  } else {
-      return false
-  }
+  return !input
+
 }
 //Define a function named addOne that takes in a single input. If the input is a number or a numeric string, return the value plus one.
 function addOne(input){
-    return input + 1
+    return parseFloat((input + 1))
 }
 //Define a function named isEven that takes in a single input. If the input is an even number or a string containing an even number, return true. Any other input should return false for the output.
 function isEven(input){
@@ -84,6 +81,3 @@ function and(inp1,inp2){
 
 }
 //Define a function named concat that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
-function concat(inp1, inp2){
-    if(inp1 == )
-}
